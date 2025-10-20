@@ -156,7 +156,7 @@ int main() {
             break;
         case 9:// Raiz quadrada
             resultado = sqrt(pnumero);
-            printf("\nResultado: %g\n", resultado);
+            printf("\nResultado: %g\n", resultado);  //por uma estrutura condicional para numeros negativos 
             break;
         case 10:// Raiz cubica
             resultado = cbrt(pnumero);
@@ -273,4 +273,5 @@ int main() {
 		
 	}
 	return 0;
+
 }
